@@ -11,7 +11,7 @@ locals {
 }
 
 inputs = {
-  project                                = local.global.project
-  region                                 = local.global.region
-  
+  project = local.global.project
+  region  = local.global.region
+  env     = local.stage.env
 }

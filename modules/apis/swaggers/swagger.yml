@@ -1,0 +1,91 @@
+openapi: "3.0.1"
+
+info:
+  title: "Francis Wedding"
+  version: "v1"
+
+paths:
+  /check-name:
+    get:
+      summary: Check partecipants
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ControlloInvitato'
+      responses:
+        '200':
+          description: invitato!
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Empty"
+        "500":
+          description: "Internal Server Error"    
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/InternalServerError"
+      x-amazon-apigateway-request-validator: "validate-all"
+      x-amazon-apigateway-integration:
+        type: "aws_proxy"
+        httpMethod: "POST"
+        credentials: "${role-arn}"
+        uri: "arn:aws:apigateway:${region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${region}:${account-id}:function:${lambda-controllo-invitato}/invocations"
+    options:
+      responses:
+        "200":
+          $ref: '#/components/responses/OptionsMethodSuccess'
+      x-amazon-apigateway-integration:
+        type: "mock"
+        passthroughBehavior: "when_no_match"
+        requestTemplates:
+          application/json: '{"statusCode": 200}'
+        responses:
+          default:
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Methods: "'POST,OPTIONS'"
+              method.response.header.Access-Control-Allow-Headers: "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'"
+              method.response.header.Access-Control-Allow-Origin: "'*'"
+  
+components:
+  schemas:
+    InternalServerError:
+      title: "InternalServerError"
+      type: object
+      properties:
+        response:
+          type: string
+      example: {
+        "response": "Internal Server Error"
+      }
+    Empty:
+      title: "Empty"
+      type: "object"
+    ControlloInvitato:
+      type: object
+      properties:
+        nome:
+          type: string
+        cognome:
+          type: string
+
+  responses:
+    OptionsMethodSuccess:
+      description: "200 response"
+      headers:
+        Access-Control-Allow-Origin:
+          schema:
+            type: "string"
+        Access-Control-Allow-Methods:
+          schema:
+            type: "string"
+        Access-Control-Allow-Headers:
+          schema:
+            type: "string"
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Empty"

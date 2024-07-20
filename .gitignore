@@ -4,6 +4,7 @@
 # .tfstate files
 *.tfstate
 *.tfstate.*
+**/.terragrunt-cache
 
 # Crash log files
 crash.log
@@ -34,4 +35,8 @@ override.tf.json
 terraform.rc
 
 #notes
-notes.md
+notes.
+
+#MC file
+**/.DS_Store
+.DS_Store
