@@ -12,3 +12,13 @@ variable "env" {
   type        = string
   description = "Environment"
 }
+
+variable "account_id" {
+  type        = string
+  description = "Account ID"
+}
+
+variable "dynamo_invitati_name" {
+  type        = string
+  description = "Nome della tabella dynamo degli invitati"
+}

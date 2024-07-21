@@ -5,7 +5,7 @@ info:
   version: "v1"
 
 paths:
-  /check-name:
+  /controllo-invitato:
     get:
       summary: Check partecipants
       requestBody:
@@ -31,25 +31,8 @@ paths:
       x-amazon-apigateway-integration:
         type: "aws_proxy"
         httpMethod: "POST"
-        credentials: "${role-arn}"
-        uri: "arn:aws:apigateway:${region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${region}:${account-id}:function:${lambda-controllo-invitato}/invocations"
-    options:
-      responses:
-        "200":
-          $ref: '#/components/responses/OptionsMethodSuccess'
-      x-amazon-apigateway-integration:
-        type: "mock"
-        passthroughBehavior: "when_no_match"
-        requestTemplates:
-          application/json: '{"statusCode": 200}'
-        responses:
-          default:
-            statusCode: "200"
-            responseParameters:
-              method.response.header.Access-Control-Allow-Methods: "'POST,OPTIONS'"
-              method.response.header.Access-Control-Allow-Headers: "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'"
-              method.response.header.Access-Control-Allow-Origin: "'*'"
-  
+        uri: "arn:aws:apigateway:${region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${region}:${account_id}:function:${lambda_controllo_invitato}/invocations"
+    
 components:
   schemas:
     InternalServerError:
