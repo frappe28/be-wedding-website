@@ -2,13 +2,17 @@ locals {
   lambda_name = "${var.env}-${var.project}-controllo-invitato"
 }
 resource "aws_lambda_function" "controllo_invitato" {
-  filename         = "${path.module}/lambdas/controllo-invitato/build.zip"
-  role             = aws_iam_role.lambda_role.arn
-  function_name    = local.lambda_name
-  source_code_hash = data.archive_file.controllo_invitato.output_base64sha256
-  handler          = "index.handler"
-  runtime          = "nodejs18.x"
-  timeout          = 10
+  role          = aws_iam_role.lambda_role.arn
+  function_name = local.lambda_name
+  s3_bucket     = aws_s3_bucket.lambdas.bucket
+  s3_key        = "${local.lambda_name}.zip"
+  handler       = "index.handler"
+  runtime       = "nodejs18.x"
+  timeout       = 30
+
+  layers = [
+    var.aws_sdk_lambda_layer_version_arn
+  ]
 
   environment {
     variables = {
@@ -16,32 +20,6 @@ resource "aws_lambda_function" "controllo_invitato" {
       DYNAMODB_INVITATI_TABLE_NAME = data.aws_dynamodb_table.invitati.name
     }
   }
-}
-
-data "archive_file" "controllo_invitato" {
-  type        = "zip"
-  source_dir  = "${path.module}/lambdas/controllo-invitato/src/"
-  output_path = "${path.module}/lambdas/controllo-invitato/build.zip"
-
-  depends_on = [
-    null_resource.yarn_install_controllo_invitato
-  ]
-}
-
-resource "null_resource" "yarn_install_controllo_invitato" {
-  triggers = {
-    timestamp = timestamp()
-  }
-
-  provisioner "local-exec" {
-    working_dir = "${path.module}/lambdas/controllo-invitato"
-    command     = "yarn --frozen-lockfile --mutex network"
-  }
-
-  # provisioner "local-exec" {
-  #   working_dir = "${path.module}/lambdas/controllo-invitato"
-  #   command     = "yarn build"
-  # }
 }
 
 resource "aws_cloudwatch_log_group" "controllo_invitato" {

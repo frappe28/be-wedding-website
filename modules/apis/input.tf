@@ -18,6 +18,11 @@ variable "account_id" {
   description = "Account ID"
 }
 
+variable "aws_sdk_lambda_layer_version_arn" {
+  type        = string
+  description = "ARN of the aws sdk lambda layer version."
+}
+
 variable "dynamo_invitati_name" {
   type        = string
   description = "Nome della tabella dynamo degli invitati"

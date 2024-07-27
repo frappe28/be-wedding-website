@@ -26,6 +26,22 @@ dependency "dynamodb" {
   mock_outputs_merge_strategy_with_state = "shallow"
 }
 
+dependency "lambda_layers" {
+  config_path = "../lambda_layers"
+
+  mock_outputs = {
+    aws_sdk_lambda_layer_version_arn = "aws_sdk_lambda_layer_version_arn"
+  }
+
+  mock_outputs_allowed_terraform_commands = [
+    "init",
+    "validate",
+    "plan"
+  ]
+
+  mock_outputs_merge_strategy_with_state = "shallow"
+}
+
 inputs = {
   project     = local.global.project
   region      = local.global.region
@@ -33,4 +49,6 @@ inputs = {
   account_id  = get_aws_account_id()
 
   dynamo_invitati_name = dependency.dynamodb.outputs.dynamo_invitati_name
+  aws_sdk_lambda_layer_version_arn   = dependency.lambda_layers.outputs.aws_sdk_lambda_layer_version_arn
+
 }
