@@ -1,11 +1,11 @@
 locals {
-  lambda_name = "${var.env}-${var.project}-controllo-invitato"
+  lambda_name_controllo_invitato = "${var.env}-${var.project}-controllo-invitato"
 }
 resource "aws_lambda_function" "controllo_invitato" {
-  role          = aws_iam_role.lambda_role.arn
-  function_name = local.lambda_name
+  role          = aws_iam_role.lambda_role_controllo_invitato.arn
+  function_name = local.lambda_name_controllo_invitato
   s3_bucket     = aws_s3_bucket.lambdas.bucket
-  s3_key        = "${local.lambda_name}.zip"
+  s3_key        = "${local.lambda_name_controllo_invitato}.zip"
   handler       = "index.handler"
   runtime       = "nodejs18.x"
   timeout       = 30
@@ -23,7 +23,7 @@ resource "aws_lambda_function" "controllo_invitato" {
 }
 
 resource "aws_cloudwatch_log_group" "controllo_invitato" {
-  name              = "/aws/lambda/${local.lambda_name}"
+  name              = "/aws/lambda/${local.lambda_name_controllo_invitato}"
   retention_in_days = 30
 }
 
@@ -35,7 +35,7 @@ resource "aws_lambda_permission" "controllo_invitato" {
   source_arn    = "arn:aws:execute-api:${var.region}:${var.account_id}:${aws_api_gateway_rest_api.api.id}/*/GET/controllo-invitato"
 }
 
-data "aws_iam_policy_document" "assume_role" {
+data "aws_iam_policy_document" "assume_role_controllo_invitato" {
   statement {
     effect = "Allow"
 
@@ -48,23 +48,23 @@ data "aws_iam_policy_document" "assume_role" {
   }
 }
 
-resource "aws_iam_role" "lambda_role" {
-  name               = local.lambda_name
-  assume_role_policy = data.aws_iam_policy_document.assume_role.json
+resource "aws_iam_role" "lambda_role_controllo_invitato" {
+  name               = local.lambda_name_controllo_invitato
+  assume_role_policy = data.aws_iam_policy_document.assume_role_controllo_invitato.json
 }
 
-resource "aws_iam_role_policy_attachment" "basic" {
+resource "aws_iam_role_policy_attachment" "basic_controllo_invitato" {
   policy_arn = "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
-  role       = aws_iam_role.lambda_role.name
+  role       = aws_iam_role.lambda_role_controllo_invitato.name
 }
 
 resource "aws_iam_policy" "controllo_invitati" {
-  name   = local.lambda_name
+  name   = local.lambda_name_controllo_invitato
   policy = data.aws_iam_policy_document.lambda_controllo_invitati.json
 }
 
-resource "aws_iam_role_policy_attachment" "test-attach" {
-  role       = aws_iam_role.lambda_role.name
+resource "aws_iam_role_policy_attachment" "att_controllo_invitato" {
+  role       = aws_iam_role.lambda_role_controllo_invitato.name
   policy_arn = aws_iam_policy.controllo_invitati.arn
 }
 

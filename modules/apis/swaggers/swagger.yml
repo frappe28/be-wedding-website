@@ -7,13 +7,18 @@ info:
 paths:
   /controllo-invitato:
     get:
-      summary: Check partecipants
-      requestBody:
-        required: true
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/ControlloInvitato'
+      summary: Controllo invitato
+      parameters:
+        - in: query
+          name: nome
+          schema:
+            type: string
+          required: true
+        - in: query
+          name: cognome
+          schema:
+            type: string
+          required: true
       responses:
         '200':
           description: invitato!
@@ -32,7 +37,35 @@ paths:
         type: "aws_proxy"
         httpMethod: "POST"
         uri: "arn:aws:apigateway:${region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${region}:${account_id}:function:${lambda_controllo_invitato}/invocations"
-    
+  
+  /conferma-presenza:
+    post:
+      summary: Invitato conferma presenza
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ConfermaPresenza'
+      responses:
+        '200':
+          description: T'appoooo
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Empty"
+        "500":
+          description: "Internal Server Error"    
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/InternalServerError"
+      x-amazon-apigateway-request-validator: "validate-all"
+      x-amazon-apigateway-integration:
+        type: "aws_proxy"
+        httpMethod: "POST"
+        uri: "arn:aws:apigateway:${region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${region}:${account_id}:function:${lambda_conferma_presenza}/invocations"
+      
 components:
   schemas:
     InternalServerError:
@@ -54,6 +87,28 @@ components:
           type: string
         cognome:
           type: string
+    ConfermaPresenza:
+      type: object
+      properties:
+        nome:
+          type: string
+        cognome:
+          type: string
+        id:
+          type: string
+        username:
+          type: string
+        intolleranze:
+          type: boolean
+        intolleranze_list:
+          type: string
+        email:
+          type: string
+        telefono:
+          type: string
+        forestiero:
+          type: boolean
+        
 
   responses:
     OptionsMethodSuccess:
