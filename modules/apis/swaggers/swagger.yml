@@ -22,12 +22,26 @@ paths:
       responses:
         '200':
           description: invitato!
+          headers:
+            Access-Control-Allow-Origin:
+              schema:
+                type: "string"
+            Strict-Transport-Security:
+              schema:
+                type: "string"  
           content:
             application/json:
               schema:
                 $ref: "#/components/schemas/Empty"
         "500":
-          description: "Internal Server Error"    
+          description: "Internal Server Error"
+          headers:  
+            Access-Control-Allow-Origin:
+              schema:
+                type: "string"
+            Strict-Transport-Security:
+              schema:
+                type: "string"
           content:
             application/json:
               schema:
@@ -37,7 +51,22 @@ paths:
         type: "aws_proxy"
         httpMethod: "POST"
         uri: "arn:aws:apigateway:${region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${region}:${account_id}:function:${lambda_controllo_invitato}/invocations"
-  
+    options:
+      responses:
+        "200":
+          $ref: '#/components/responses/OptionsMethodSuccess'
+      x-amazon-apigateway-integration:
+        type: "mock"
+        passthroughBehavior: "when_no_match"
+        requestTemplates:
+          application/json: '{"statusCode": 200}'
+        responses:
+          default:
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Methods: "'GET,OPTIONS'"
+              method.response.header.Access-Control-Allow-Headers: "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'"
+              method.response.header.Access-Control-Allow-Origin: "'*'"  
   /conferma-presenza:
     post:
       summary: Invitato conferma presenza
@@ -50,12 +79,26 @@ paths:
       responses:
         '200':
           description: T'appoooo
+          headers:
+            Access-Control-Allow-Origin:
+              schema:
+                type: "string"
+            Strict-Transport-Security:
+              schema:
+                type: "string" 
           content:
             application/json:
               schema:
                 $ref: "#/components/schemas/Empty"
         "500":
-          description: "Internal Server Error"    
+          description: "Internal Server Error"
+          headers:  
+            Access-Control-Allow-Origin:
+              schema:
+                type: "string"
+            Strict-Transport-Security:
+              schema:
+                type: "string"
           content:
             application/json:
               schema:
@@ -65,7 +108,22 @@ paths:
         type: "aws_proxy"
         httpMethod: "POST"
         uri: "arn:aws:apigateway:${region}:lambda:path/2015-03-31/functions/arn:aws:lambda:${region}:${account_id}:function:${lambda_conferma_presenza}/invocations"
-      
+    options:
+      responses:
+        "200":
+          $ref: '#/components/responses/OptionsMethodSuccess'
+      x-amazon-apigateway-integration:
+        type: "mock"
+        passthroughBehavior: "when_no_match"
+        requestTemplates:
+          application/json: '{"statusCode": 200}'
+        responses:
+          default:
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Methods: "'POST,OPTIONS'"
+              method.response.header.Access-Control-Allow-Headers: "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'"
+              method.response.header.Access-Control-Allow-Origin: "'*'"  
 components:
   schemas:
     InternalServerError:

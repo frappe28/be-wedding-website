@@ -11,7 +11,7 @@ export const check_invitato = async (id) => {
         const params = {
             TableName: DYNAMODB_INVITATI_TABLE_NAME,
             Key: {
-                id: id
+                id
             }
         };
         console.log('Get item params', { ...params });

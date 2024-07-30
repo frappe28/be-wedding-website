@@ -3,7 +3,7 @@
 # Variables
 # List of lambda names
 #"controllo-invitato" 
-NAMES=("conferma-presenza")
+NAMES=("controllo-invitato")
 S3_BUCKET="dev-francis-wedding-lambdas"
 
 export AWS_PROFILE=wedding

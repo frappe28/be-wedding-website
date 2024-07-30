@@ -15,7 +15,11 @@ export async function handler(event) {
     return {
       statusCode: 200,
       headers: HEADERS,
-      body: JSON.stringify({ state: isInvitato, message: (isInvitato ? 'Invitato!' : 'Non Invitato') })
+      body: JSON.stringify({
+        state: isInvitato,
+        message: (isInvitato ? 'Invitato!' : 'Non Invitato'),
+        data: response
+      })
     };
   } catch (error) {
     console.log(error)

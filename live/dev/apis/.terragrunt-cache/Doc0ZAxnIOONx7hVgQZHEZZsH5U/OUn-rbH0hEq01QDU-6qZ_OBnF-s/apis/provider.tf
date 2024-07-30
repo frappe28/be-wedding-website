@@ -4,7 +4,7 @@
     default_tags {
       tags = {
         Project              = "Francis-Wedding"
-        "Creation Date"       = "2024-07-28"
+        "Creation Date"       = "2024-07-30"
         Environment           = "dev"
       }
     }
@@ -18,7 +18,7 @@
     default_tags {
       tags = {
         Project              = "Francis-Wedding"
-        "Creation Date"       = "2024-07-28"
+        "Creation Date"       = "2024-07-30"
         Environment           = "dev"
       }
     }
