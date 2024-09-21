@@ -2,8 +2,7 @@
 
 # Variables
 # List of lambda names
-#"controllo-invitato" 
-NAMES=("controllo-invitato")
+NAMES=("invia-notifica")
 S3_BUCKET="dev-francis-wedding-lambdas"
 
 export AWS_PROFILE=wedding
@@ -28,14 +27,16 @@ do
     cd ../../scripts/
 
     # Step 4: Upload the zip file to the specified S3 bucket
-    aws s3 cp $ZIP_FILE s3://$S3_BUCKET/
-    aws lambda update-function-code \
-    --function-name $LAMBDA_NAME \
-    --s3-bucket $S3_BUCKET \
-    --s3-key $ZIP_FILE
+    #aws s3 cp $ZIP_FILE s3://$S3_BUCKET/
+    
+    # NOTA BENE se crei la lambda per la prima volta commenta il seguente comando:
+    # aws lambda update-function-code \
+    # --function-name $LAMBDA_NAME \
+    # --s3-bucket $S3_BUCKET \
+    # --s3-key $ZIP_FILE
 
     # Step 5: Clean up
-    rm $ZIP_FILE
+    #rm $ZIP_FILE
     echo "Lambda deployment package for $NAME created and uploaded to S3 successfully."
 
     # Navigate back to the original directory for the next iteration
