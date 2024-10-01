@@ -3,10 +3,11 @@ import { sendNotification } from "./utils/sns.mjs";
 
 
 export async function handler(event) {
+  console.log('event', event);
   try {
     // Leggi gli invitati da DynamoDB
     const inviati = await scanInvitati();
-    console.log(inviati)
+    console.log(inviati);
 
     //Itera su ogni elemento (invitato)
     const promises = inviati.itemResult.map(async invitato => {

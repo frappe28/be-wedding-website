@@ -38,9 +38,7 @@ export const scanInvitati = async () => {
         console.log('Get item result', { ...queryResult });
         const itemResult = queryResult.Items;
 
-        return {
-            itemResult
-        };
+        return itemResult;
 
     } catch (error) {
         throw new Error(error.message);

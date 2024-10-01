@@ -27,3 +27,8 @@ variable "dynamo_invitati_name" {
   type        = string
   description = "Nome della tabella dynamo degli invitati"
 }
+
+variable "events" {
+  type        = list(any)
+  description = "dettaglio degli eventi di notifica"
+}
