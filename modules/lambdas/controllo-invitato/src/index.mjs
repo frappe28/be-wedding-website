@@ -4,13 +4,34 @@ import { check_invitato } from "./utils/dynamo.mjs";
 export async function handler(event) {
   try {
     console.log(event);
-    const { nome, cognome } = event.queryStringParameters;
-    const response = (await check_invitato(nome.toLowerCase() + cognome.toLowerCase())).itemResult;
-    console.log(response);
-    let isInvitato = false;
-    if (response != null && response.nome != null && response.cognome != null)
-      isInvitato = true
+    const { nome, cognome, anno } = event.queryStringParameters;
+    if (!nome || !cognome) {
+      throw new Error('Nome e cognome sono obbligatori');
+    }
+    let id = nome.toLowerCase() + cognome.toLowerCase();
 
+    if (anno) {
+      const yearNum = parseInt(anno);
+      if (isNaN(yearNum) || (yearNum <= 1930 && yearNum >= 2025)) {
+        throw new Error('Anno non valido');
+      }
+
+      id += anno.slice(-2);
+    }
+
+    const response = (await check_invitato(id));
+    console.log(response);
+    let result;
+    let isInvitato = false;
+    if (response.Count == 1) {
+      result = response.Items[0];
+      isInvitato = true
+    } else if (response.Count > 1) {
+      result = response.Items;
+      isInvitato = true
+    } else {
+      isInvitato = false;
+    }
 
     return {
       statusCode: 200,
@@ -18,7 +39,7 @@ export async function handler(event) {
       body: JSON.stringify({
         state: isInvitato,
         message: (isInvitato ? 'Invitato!' : 'Non Invitato'),
-        data: response
+        data: result
       })
     };
   } catch (error) {

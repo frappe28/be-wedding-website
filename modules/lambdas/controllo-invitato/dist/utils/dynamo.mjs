@@ -10,18 +10,20 @@ export const check_invitato = async (id) => {
     try {
         const params = {
             TableName: DYNAMODB_INVITATI_TABLE_NAME,
-            Key: {
-                id
+            FilterExpression: 'begins_with(#id, :idPrefix)',
+            ExpressionAttributeNames: {
+                '#id': 'id'
+            },
+            ExpressionAttributeValues: {
+                ':idPrefix': id
             }
         };
-        console.log('Get item params', { ...params });
-        const queryResult = await dynamodbClient.get(params).promise();
-        console.log('Get item result', { ...queryResult });
-        const itemResult = queryResult.Item;
 
-        return {
-            itemResult
-        };
+        console.log('Scan params', { ...params });
+        const queryResult = await dynamodbClient.scan(params).promise();
+        console.log('Scan result', { ...queryResult });
+
+        return queryResult;
 
     } catch (error) {
         throw new Error(error.message);
