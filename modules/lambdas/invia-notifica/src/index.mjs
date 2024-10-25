@@ -9,10 +9,12 @@ export async function handler(event) {
     const inviati = await scanInvitati();
     console.log(inviati);
 
+    const promises = [];
+
     //Itera su ogni elemento (invitato)
-    const promises = inviati.itemResult.map(async invitato => {
-      if (invitato.telefono)
-        await sendNotification(invitato.nome, invitato.telefono, event.messaggio)
+    inviati.forEach(invitato => {
+      if (invitato.telefono && invitato.nome && invitato.cognome)
+        promises.push(sendNotification(invitato.nome, invitato.telefono, event.messaggio))
     });
 
     // Invia tutti i messaggi
