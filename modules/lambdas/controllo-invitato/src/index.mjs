@@ -25,7 +25,9 @@ export async function handler(event) {
     let isInvitato = false;
     if (response.Count == 1) {
       result = response.Items[0];
-      isInvitato = true
+      if (result.id === id) {
+        isInvitato = true;
+      }
     } else if (response.Count > 1) {
       result = response.Items;
       isInvitato = false

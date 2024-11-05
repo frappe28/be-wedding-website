@@ -13,7 +13,7 @@ export async function handler(event) {
 
     //Itera su ogni elemento (invitato)
     inviati.forEach(invitato => {
-      if (invitato.telefono && invitato.nome && invitato.cognome)
+      if (invitato.telefono && invitato.nome)
         promises.push(sendNotification(invitato.nome, invitato.telefono, event.messaggio))
     });
 

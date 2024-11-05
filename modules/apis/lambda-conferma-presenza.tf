@@ -80,6 +80,7 @@ data "aws_iam_policy_document" "lambda_conferma_presenza" {
       "dynamodb:Query",
       "dynamodb:Scan",
       "dynamodb:Put*",
+      "dynamodb:UpdateItem"
     ]
 
     resources = [
