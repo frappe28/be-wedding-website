@@ -5,6 +5,7 @@ resource "aws_api_gateway_rest_api" "api" {
       region                    = var.region
       lambda_controllo_invitato = aws_lambda_function.controllo_invitato.function_name
       lambda_conferma_presenza  = aws_lambda_function.conferma_presenza.function_name
+      lambda_get_invitato       = aws_lambda_function.get_invitato.function_name
       account_id                = var.account_id
   })
 

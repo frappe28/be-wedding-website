@@ -1,0 +1,24 @@
+{
+  "name": "get-invitato",
+  "author": "Wedding-Francis",
+  "version": "1.0.0",
+  "description": "Lambda per recuperare i dati di un invitato",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "prebuild": "mkdir -p dist && cp -r src/* dist",
+    "build": "cp package.json yarn.lock dist && cd dist",
+    "lint": "eslint '*/**/*.{js,mjs}' --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.141",
+    "eslint": "^9.7.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-vue": "^9.27.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1659.0"
+  }
+}

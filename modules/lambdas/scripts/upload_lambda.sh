@@ -2,7 +2,9 @@
 
 # Variables
 # List of lambda names
-NAMES=("conferma-presenza")
+# NAMES=("controllo-invitato")
+# NAMES=("conferma-presenza")
+NAMES=("get-invitato")
 S3_BUCKET="dev-francis-wedding-lambdas"
 
 export AWS_PROFILE=wedding
@@ -27,7 +29,7 @@ do
     cd ../../scripts/
 
     # Step 4: Upload the zip file to the specified S3 bucket
-    #aws s3 cp $ZIP_FILE s3://$S3_BUCKET/
+    # aws s3 cp $ZIP_FILE s3://$S3_BUCKET/
     
     # NOTA BENE se crei la lambda per la prima volta commenta il seguente comando:
     # aws lambda update-function-code \
