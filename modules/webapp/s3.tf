@@ -34,13 +34,16 @@ resource "aws_s3_bucket_policy" "webapp" {
   })
 }
 
+resource "aws_s3_bucket_website_configuration" "fe" {
+  bucket = aws_s3_bucket.fe.id
 
+  index_document {
+    suffix = "index.html"
+  }
 
-# resource "aws_s3_bucket_public_access_block" "fe" {
-#   bucket                  = aws_s3_bucket.fe.id
-#   block_public_acls       = true
-#   block_public_policy     = true
-#   ignore_public_acls      = true
-#   restrict_public_buckets = true
-# }
+  error_document {
+    key = "index.html"
+  }
+
+}
 
