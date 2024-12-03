@@ -1,21 +1,21 @@
 locals {
-  s3_origin_id = "fe-${var.env}"
+  s3_origin_id = "fe-chiesa-${var.env}"
 }
 
-resource "aws_cloudfront_origin_access_control" "fe" {
+resource "aws_cloudfront_origin_access_control" "fe_chiesa" {
   name                              = local.s3_origin_id
   origin_access_control_origin_type = "s3"
   signing_behavior                  = "always"
   signing_protocol                  = "sigv4"
 }
 
-resource "aws_cloudfront_origin_access_identity" "fe" {
+resource "aws_cloudfront_origin_access_identity" "fe_chiesa" {
   comment = "CloudFrontOriginAccessIdentity for ${var.env}-${var.project}"
 }
 
 resource "aws_cloudfront_distribution" "s3_distribution" {
   origin {
-    domain_name         = aws_s3_bucket_website_configuration.fe.website_endpoint
+    domain_name         = aws_s3_bucket_website_configuration.fe_chiesa.website_endpoint
     origin_id           = local.s3_origin_id
     connection_attempts = 3
     connection_timeout  = 10
@@ -39,8 +39,9 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   enabled             = true
   is_ipv6_enabled     = true
   default_root_object = "index.html"
-
-  #aliases = var.env == "prod" ? ["info.franciswedding.great-site.net", "www.info.franciswedding.great-site.net"] : []
+  comment = "cdn chiesa"
+  
+  #aliases = var.env == "prod" ? ["church.fransciswedding.fast-page.org", "www.church.fransciswedding.fast-page.org"] : []
 
   default_cache_behavior {
     allowed_methods  = ["DELETE", "GET", "HEAD", "OPTIONS", "PATCH", "POST", "PUT"]
@@ -71,8 +72,8 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   }
 
   viewer_certificate {
-    cloudfront_default_certificate = true # var.env != "prod"
-    # acm_certificate_arn            = var.env == "prod" ? "arn:aws:acm:us-east-1:992382446823:certificate/ed24f7d6-1497-4565-a5d8-937c0fe738af" : null
+    cloudfront_default_certificate = true #var.env != "prod"
+    # acm_certificate_arn            = var.env == "prod" ? "arn:aws:acm:us-east-1:992382446823:certificate/dd57ed1a-0e2d-43e3-b456-d930dfa71a8c" : null
     # ssl_support_method             = var.env == "prod" ? "sni-only" : null
     # minimum_protocol_version       = var.env == "prod" ? "TLSv1.2_2021" : null
   }

@@ -3,16 +3,11 @@ const { SNS } = pkg;
 
 const snsClient = new SNS();
 
-export const sendNotification = async (nome, telefono, messaggio) => {
+export const sendNotification = async (nome, email, messaggio) => {
     const snsParams = {
-        Message: `Ciao ${nome}, ${messaggio}`,
-        PhoneNumber: telefono.includes('+39') ? telefono : `+39${telefono}`,
-        MessageAttributes: {
-            'AWS.SNS.SMS.SenderID': {
-                DataType: 'String',
-                StringValue: 'WEDDING'
-            }
-        }
+        Subject: `STAY UP TO DATE`,
+        Message: `Ciao ${nome},\n\n${messaggio}`,
+        TopicArn: 'arn:aws:sns:eu-west-1:992382446823:dev-francis-wedding-notifica-invitati'
     };
     return snsClient.publish(snsParams).promise();
 }
