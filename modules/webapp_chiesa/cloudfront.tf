@@ -41,7 +41,7 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   default_root_object = "index.html"
   comment = "cdn chiesa"
   
-  #aliases = var.env == "prod" ? ["church.fransciswedding.fast-page.org", "www.church.fransciswedding.fast-page.org"] : []
+  aliases = var.env == "prod" ? ["church.fransciswedding.fast-page.org", "www.church.fransciswedding.fast-page.org"] : []
 
   default_cache_behavior {
     allowed_methods  = ["DELETE", "GET", "HEAD", "OPTIONS", "PATCH", "POST", "PUT"]
@@ -72,9 +72,9 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   }
 
   viewer_certificate {
-    cloudfront_default_certificate = true #var.env != "prod"
-    # acm_certificate_arn            = var.env == "prod" ? "arn:aws:acm:us-east-1:992382446823:certificate/dd57ed1a-0e2d-43e3-b456-d930dfa71a8c" : null
-    # ssl_support_method             = var.env == "prod" ? "sni-only" : null
-    # minimum_protocol_version       = var.env == "prod" ? "TLSv1.2_2021" : null
+    cloudfront_default_certificate = var.env != "prod"
+    acm_certificate_arn            = var.env == "prod" ? "arn:aws:acm:us-east-1:992382446823:certificate/dd57ed1a-0e2d-43e3-b456-d930dfa71a8c" : null
+    ssl_support_method             = var.env == "prod" ? "sni-only" : null
+    minimum_protocol_version       = var.env == "prod" ? "TLSv1.2_2021" : null
   }
 }

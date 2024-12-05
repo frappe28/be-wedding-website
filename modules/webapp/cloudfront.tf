@@ -40,7 +40,7 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   is_ipv6_enabled     = true
   default_root_object = "index.html"
 
-  #aliases = var.env == "prod" ? ["info.franciswedding.great-site.net", "www.info.franciswedding.great-site.net"] : []
+  aliases = var.env == "prod" ? ["info.franciswedding.great-site.net", "www.info.franciswedding.great-site.net"] : []
 
   default_cache_behavior {
     allowed_methods  = ["DELETE", "GET", "HEAD", "OPTIONS", "PATCH", "POST", "PUT"]
@@ -71,9 +71,9 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   }
 
   viewer_certificate {
-    cloudfront_default_certificate = true # var.env != "prod"
-    # acm_certificate_arn            = var.env == "prod" ? "arn:aws:acm:us-east-1:992382446823:certificate/ed24f7d6-1497-4565-a5d8-937c0fe738af" : null
-    # ssl_support_method             = var.env == "prod" ? "sni-only" : null
-    # minimum_protocol_version       = var.env == "prod" ? "TLSv1.2_2021" : null
+    cloudfront_default_certificate = var.env != "prod"
+    acm_certificate_arn            = var.env == "prod" ? "arn:aws:acm:us-east-1:992382446823:certificate/ed24f7d6-1497-4565-a5d8-937c0fe738af" : null
+    ssl_support_method             = var.env == "prod" ? "sni-only" : null
+    minimum_protocol_version       = var.env == "prod" ? "TLSv1.2_2021" : null
   }
 }
