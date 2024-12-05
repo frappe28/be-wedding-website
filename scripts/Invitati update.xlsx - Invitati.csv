@@ -1,0 +1,239 @@
+ID,NOME,COGNOME,Neonato,Anno di nascita,USERNAME,EMAIL,TELEFONO,forestiero,INTOLLERANZE,INTOLLERANZE_LIST,INVITO,Note forestiero,GRUPPO,INVITATO,CONFERMATO,MENÙ,TAVOLO,SESSO
+luigi+1'gina,Luigi ,+1' gina,,,,,,FALSO,,,dopofesta,,Amici di famiglia Francesca,,,,,
+ginaabbrescia,Gina,abbrescia,,,,,,FALSO,,,dopofesta,,Amici di famiglia Francesca,,,,,
+mattiabassi,Mattia,Bassi,,,,,,FALSO,,,sala,,Amici di famiglia Francesca,,IN ATTESA,Adulti,,Uomo
+mogliesavinocarbotta,moglie savino,carbotta,,,,,,FALSO,,,sala,,Amici di famiglia Francesca,,,,,
+savinocarbotta,savino,carbotta,,,,,,FALSO,,,sala,,Amici di famiglia Francesca,,,,,
+emanueledeastis,Emanuele,De Astis,,,,,,FALSO,,,sala,,Amici di famiglia Francesca,,IN ATTESA,Adulti,,Uomo
+giuliadigina,giulia,di gina,,,,,,FALSO,,,dopofesta,,Amici di famiglia Francesca,,,,,
+margheritaforte,margherita,forte,,,,,,FALSO,,,sala,,Amici di famiglia Francesca,,,,,
+federicagiusto,Federica,Giusto,,1995,,,,FALSO,,,sala,,Amici di famiglia Francesca,,IN ATTESA,Adulti,,Donna
+filippogiusto,Filippo,Giusto,,,,,,FALSO,,,sala,,Amici di famiglia Francesca,,IN ATTESA,Adulti,,Uomo
+marcogiusto,Marco,Giusto,,,,,,FALSO,,,sala,,Amici di famiglia Francesca,,IN ATTESA,Adulti,,Uomo
+alessiamarotta,Alessia,Marotta,SI,,,,,FALSO,,,sala,,Amici di famiglia Francesca,,IN ATTESA,Adulti,,Donna
+lauramarotta,Laura,Marotta,,,,,,FALSO,,,sala,,Amici di famiglia Francesca,,IN ATTESA,Adulti,,Donna
+nicolasmarotta,Nicolas,Marotta,,,,,,FALSO,,,sala,,Amici di famiglia Francesca,,IN ATTESA,Adulti,,Uomo
+alessandromincuzzi,alessandro,mincuzzi,,,,,,FALSO,,,sala,,Amici di famiglia Francesca,,,,,
+francescamincuzzi,francesca,mincuzzi,,,,,,FALSO,,,sala,,Amici di famiglia Francesca,,,,,
+leonardomincuzzi,leonardo,mincuzzi,,,,,,FALSO,,,sala,,Amici di famiglia Francesca,,,,,
+angeloaddante,angelo,addante,,,,,,FALSO,,,chiesa,,Amici di famiglia francesco,,,,,
+cosimobarba,cosimo,barba,,,,,,FALSO,,,chiesa,,Amici di famiglia francesco,,,,,
+michelebarbone,Michele,Barbone,,,,,,FALSO,,,sala,,Amici di famiglia Francesco,,IN ATTESA,Adulti,,
+annapaolacapozzi,annapaola,capozzi,,,,,,FALSO,,,chiesa,,Amici di famiglia francesco,,,,,
+rinocarlucci,rino,carlucci,,,,,,FALSO,,,chiesa,,Amici di famiglia francesco,,,,,
+emiliacatella,Emilia,Catella,,,,,3407647649,FALSO,,,sala,,Amici di famiglia Francesco,,IN ATTESA,Adulti,Amici famiglia frasanz (DIVIDERE),
+luigicatella,Luigi,Catella,,,,,,FALSO,,,sala,,Amici di famiglia Francesco,,IN ATTESA,Adulti,Amici famiglia frasanz (DIVIDERE),Uomo
+tellaceci,TELLA,Ceci,,,,,,FALSO,,,chiesa,,Amici di famiglia Francesco,,IN ATTESA,Ospiti (dolci),Buffet di dolci,Donna
+elianacinori,Eliana,Cinori,,,,,3289266532,FALSO,,,sala,,Amici di famiglia Francesco,,IN ATTESA,Adulti,Amici famiglia frasanz (DIVIDERE),
+angelodebellis,Angelo,De Bellis,,,,,3478762729,FALSO,,,sala,,Amici di famiglia Francesco,,IN ATTESA,Adulti,Amici famiglia frasanz (DIVIDERE),
+federicadebellis,Federica,De Bellis,,,,,3481950080,FALSO,,,sala,,Amici di famiglia Francesco,,IN ATTESA,Adulti,Giovani famiglia frasanz (12!!!),
+lucadebellis,Luca,De Bellis,,,,,3807423727,FALSO,,,sala,,Amici di famiglia Francesco,,IN ATTESA,Adulti,Giovani famiglia frasanz (12!!!),Uomo
+leonardadecaro,Leonarda,De Caro,,,,,,FALSO,,,sala,,Amici di famiglia Francesco,,IN ATTESA,Adulti,Amici famiglia frasanz (DIVIDERE),Donna
+toniogiardino,Tonio,Giardino,,,,,,FALSO,,,chiesa,,Amici di famiglia Francesco,,IN ATTESA,Ospiti (dolci),Buffet di dolci,Uomo
+tizianamammanicole,Tiziana,mamma nicole,,,,,,FALSO,,,chiesa,,Amici di famiglia francesco,,,,,
+andreapietrantonio,Andrea,Pietrantonio,,,,,3426734351,FALSO,,,sala,,Amici di famiglia Francesco,,IN ATTESA,Adulti,Giovani famiglia frasanz (12!!!),
+nicolagiuseppepietrantonio,Nicola Giuseppe,Pietrantonio,,,,,3802462561,FALSO,,,sala,,Amici di famiglia Francesco,,IN ATTESA,Adulti,Amici famiglia frasanz (DIVIDERE),
+famigliaprocino,Famiglia,Procino,,,,,,FALSO,,,chiesa,,Amici di famiglia Francesco,,IN ATTESA,Adulti,,
+famigliarosaprocino,Famiglia Rosa,Procino,,,,,,FALSO,,,chiesa,,Amici di famiglia Francesco,,IN ATTESA,Adulti,,
+mariateresasperti,mariateresa,sperti,,,,,,FALSO,,,chiesa,,Amici di famiglia francesco,,,,,
+vivianavitulli,Viviana,Vitulli,,,,,3273796737,FALSO,,,sala,,Amici di famiglia Francesco,,IN ATTESA,Adulti,Giovani famiglia frasanz (12!!!),
+giuseppinapapagna,Giuseppina,papagna,,,,,,FALSO,,,sala,,Amici Francesca,,,,,
+silviarecchi,silvia,Recchi,,,,,,FALSO,,,sala,,Amici Francesca,,,,,
+alessandraangiulli,Alessandra,Angiulli,,,,,3486847811,FALSO,,,sala,,Amici Francesca Deperte,,IN ATTESA,Adulti,,Donna
+francescabrescia,Francesca,Brescia,,,,,,FALSO,,,sala,,Amici Francesca Deperte,,IN ATTESA,Adulti,,Donna
+elenacarletti,Elena,Carletti,,,,,,FALSO,,,sala,,Amici Francesca Deperte,,IN ATTESA,Adulti,,Donna
+marilisacolasanto,Marilisa,Colasanto,,,,,,FALSO,,,sala,,Amici Francesca Deperte,,IN ATTESA,Adulti,Università,Donna
+lucacuscutti,Luca,Cuscutti,,,,,,FALSO,,,sala,,Amici Francesca Deperte,,IN ATTESA,Adulti,,Uomo
+nicodammacco,Nico,Dammacco,,,,,3402490186,FALSO,,,sala,,Amici Francesca Deperte,,IN ATTESA,Adulti,,Uomo
+fabianadegiglio,Fabiana,De Giglio,,,,,,FALSO,,,sala,,Amici Francesca Deperte,,IN ATTESA,Adulti,,Donna
+mariangelafilograno,Mariangela,Filograno,SI,,,,3486564547,FALSO,,,sala,,Amici Francesca Deperte,,IN ATTESA,Adulti,,Donna
+ilariaguarini,Ilaria,Guarini,,,,,,FALSO,,,sala,,Amici Francesca Deperte,,IN ATTESA,Adulti,,Donna
+antonioparisi,Antonio,Parisi,,,,,3883460545,FALSO,,,sala,,Amici Francesca Deperte,,IN ATTESA,Adulti,Università,Uomo
+massimilianoporcelli,Massimiliano,Porcelli,,,,,3408046639,FALSO,,,sala,,Amici Francesca Deperte,,IN ATTESA,Adulti,,Uomo
+andreaabate,Andrea,Abate,,,,,3483476457,FALSO,,,sala,,Amici Francesco Sanzone,,IN ATTESA,,Buffet di dolci,
+fabioaddante,Fabio,Addante,,,,fabio-addante@libero.it,3468860173,FALSO,,,sala,,Amici Francesco Sanzone,,IN ATTESA,Adulti,Amici frasanz (9!!!),Uomo
+andreabarba,Andrea,Barba,,,,,3498922808,FALSO,,,sala,,Amici Francesco Sanzone,,IN ATTESA,Adulti,Amici frasanz (9!!!),Uomo
+francescocampobasso,francesco,campobasso,,,,,,FALSO,,,dopofesta,,Amici Francesco Sanzone,,,,,
+nicolecarlucci,Nicole,Carlucci,,,,colina95@hotmail.it,3402939261,FALSO,,,sala,,Amici Francesco Sanzone,,IN ATTESA,Adulti,Amici frasanz (9!!!),Donna
+figliocatacchio,figlio,catacchio,SI,,,,,FALSO,,,dopofesta,,Amici Francesco Sanzone,,,,,
+francescocatacchio,francesco,catacchio,,,,,,FALSO,,,dopofesta,,Amici Francesco Sanzone,,,,,
+teresacolucci,Teresa,Colucci,,,,teresa.colucci@virgilio.it,3474878296,FALSO,,,sala,,Amici Francesco Sanzone,,IN ATTESA,Adulti,Amici frasanz (9!!!),Donna
+giorgiadesanctis,Giorgia,De Sanctis,,,,,3407898856,FALSO,,,sala,,Amici Francesco Sanzone,,IN ATTESA,Adulti,Amici frasanz (9!!!),Donna
+lucianadesantis,Luciana,De Santis,,,,,,FALSO,,,sala,,Amici Francesco Sanzone,,IN ATTESA,Adulti,Buffet di dolci,Donna
+isabellaferri,Isabella,Ferri,,,,,3474344053,FALSO,,,sala,,Amici Francesco Sanzone,,IN ATTESA,No lattosio,Buffet di dolci,
+lucaferri,Luca,Ferri,,,,cerbiatto@libero.it,3407843611,FALSO,,,sala,,Amici Francesco Sanzone,,IN ATTESA,Adulti,Amici frasanz (9!!!),Uomo
+alessandrofrappampina,alessandro ,Frappampina,SI,,,,,FALSO,,,sala,,Amici Francesco Sanzone,,,Bambini,,
+leonardofrappampina,Leonardo,Frappampina,,,,,3493631150,FALSO,,,sala,,Amici Francesco Sanzone,,IN ATTESA,Adulti,Amici frasanz (9!!!),Uomo
+francescoinnamorato,francesco,innamorato,,,,,,FALSO,,,dopofesta,,Amici Francesco Sanzone,,,,,
+micheleloseto,Michele,Loseto,,,,,,FALSO,,,dopofesta,,Amici Francesco Sanzone,,IN ATTESA,Ospiti (dolci),Buffet di dolci,Uomo
+oraziomancusi,orazio,mancusi,,,,,,FALSO,,,dopofesta,,Amici Francesco Sanzone,,,,,
+serenamanzari,serena,manzari,,,,,,FALSO,,,dopofesta,,Amici Francesco Sanzone,,,,,
+danielamastrotriggiani,daniela,mastrotriggiani,,,,,,FALSO,,,dopofesta,,Amici Francesco Sanzone,,,,,
+giadamininni,Giada,Mininni,,,,,3249098583,FALSO,,,sala,,Amici Francesco Sanzone,,IN ATTESA,Adulti,Buffet di dolci,Donna
+toniamogliesandro,Tonia,Moglie Sandro,,,,,,FALSO,,,chiesa,,Amici Francesco Sanzone,,IN ATTESA,Ospiti (dolci),Buffet di dolci,Donna
+alessandromontelli,alessandro,montelli,,,,,,FALSO,,,dopofesta,,Amici Francesco Sanzone,,,,,
+antoniomorisco,Antonio,Morisco,,,,,,FALSO,,,sala,,Amici Francesco Sanzone,,IN ATTESA,Adulti,Buffet di dolci,Uomo
+pierpaolomorisco,Pierpaolo,Morisco,,,,,,FALSO,,,sala,,Amici Francesco Sanzone,,IN ATTESA,Adulti,Buffet di dolci,Uomo
+francescopignatelli,Francesco,Pignatelli,,,,,3406964822,FALSO,,,sala,,Amici Francesco Sanzone,,IN ATTESA,Adulti,Buffet di dolci,Uomo
+alessandrotraversa,Alessandro,Traversa,,,,,,FALSO,,,chiesa,,Amici Francesco Sanzone,,IN ATTESA,Ospiti (dolci),Buffet di dolci,Uomo
+albertovisceglia,Alberto,Visceglia,,,,,,FALSO,,,sala,,Amici Francesco Sanzone,,IN ATTESA,Adulti,Buffet di dolci,Uomo
+lucianovolpe,Luciano,Volpe,,,,,,FALSO,,,dopofesta,,Amici Francesco Sanzone,,IN ATTESA,Ospiti (dolci),Buffet di dolci,Uomo
+mariangelavolpe,Mariangela,Volpe,,,,majmary@hotmail.it,3493724969,FALSO,,,sala,,Amici Francesco Sanzone,,IN ATTESA,Adulti,Amici frasanz (9!!!),Donna
+leonardozella,leonardo,zella,,,,,,FALSO,,,sala,,Amici Francesco Sanzone,,,,,
+bhozella+1,bho,zella +1,,,,,,FALSO,,,sala,,Amici Francesco Sanzone,,,,,
+fid+1cata,fid +1 cata,,,,,,,FALSO,,,dopofesta,,Amici Francesco Sanzone,,,,,
+ariannagiardino,arianna,giardino,,,,,,FALSO,,,dopofesta,,Amici Francesco Sanzone,,IN ATTESA,Ospiti (dolci),Buffet di dolci,Uomo
+fid+1zella,fid +1 zella,,,,,,,FALSO,,,dopofesta,,Amici Francesco Sanzone,,,,,
+chiarabuongiorno,chiara,Buongiorno,SI,,,,,FALSO,,,sala,,Amici in comune,,IN ATTESA,Adulti,Università,Donna
+giovannibuongiorno,Giovanni,Buongiorno,,,,,3490682893,FALSO,,,sala,,Amici in comune,,IN ATTESA,Adulti,Università,Uomo
+danielacaira,Daniela,Caira,,,,,3402805489,FALSO,,,sala,,Amici in comune,,IN ATTESA,Adulti,Università,Donna
+francescocristofaro,Francesco,Cristofaro,,,,,3494211178,FALSO,,,sala,,Amici in comune,,IN ATTESA,,Amici frasanz,
+mariafanelli,Maria,Fanelli,,,,,,FALSO,,,sala,,Amici in comune,,IN ATTESA,Adulti,Amici frasanz,Donna
+giuseppinaguerra,Giuseppina,Guerra,,,,,3486357253,FALSO,,,sala,,Amici in comune,,IN ATTESA,Adulti,Amici frasanz,Donna
+alessialoiacono,Alessia,Loiacono,,,,,3479415101,FALSO,,,sala,,Amici in comune,,IN ATTESA,Adulti,Università,Donna
+vitomanca,Vito,Manca,,,,,3662772870,FALSO,,,sala,,Amici in comune,,IN ATTESA,Adulti,Coro,Uomo
+matteomartuccizecca,Matteo,Martucci Zecca,SI,,,,,FALSO,,,sala,,Amici in comune,,IN ATTESA,Adulti,Amici frasanz,Donna
+pieromartuccizecca,Piero,Martucci Zecca,,,,piero.martuccizecca@finconsgroup.com,3664355388,FALSO,,,sala,,Amici in comune,,IN ATTESA,Adulti,Amici frasanz,Donna
+robertapastore,Roberta,Pastore,,,,,3286850541,FALSO,,,sala,,Amici in comune,,IN ATTESA,Adulti,Amici frasanz,Donna
+lucasciancalepore,Luca,Sciancalepore,,,,,,FALSO,,,sala,,Amici in comune,,IN ATTESA,Adulti,Università,Uomo
+francescobarnaba,francesco,barnaba,,,,,,FALSO,,,dopofesta,,Asiel,,IN ATTESA,Adulti,,
+ilariacampana,ilaria,campana,,,,,,FALSO,,,dopofesta,,Asiel,,IN ATTESA,Adulti,,
+claudiacarofiglio,claudia,carofiglio,,,,,,FALSO,,,dopofesta,,Asiel,,IN ATTESA,Adulti,,
+gianlucadebenedetto,gianluca,de benedetto,,,,,,FALSO,,,dopofesta,,Asiel,,IN ATTESA,Adulti,,
+francescogiuliani,francesco,giuliani,,,,,,FALSO,,,dopofesta,,Asiel,,IN ATTESA,Adulti,,
+federicagiusto,federica,giusto,,2003,,,,FALSO,,,dopofesta,,Asiel,,IN ATTESA,Adulti,,
+valeriagiusto,valeria ,giusto,,,,,,FALSO,,,dopofesta,,Asiel,,IN ATTESA,Adulti,,
+giorgialoconsole,giorgia,loconsole,,,,,,FALSO,,,dopofesta,,Asiel,,IN ATTESA,Adulti,,
+angelalopez,angela,lopez,,,,,,FALSO,,,dopofesta,,Asiel,,IN ATTESA,Adulti,,
+valerianeviera,valeria,neviera,,,,,,FALSO,,,dopofesta,,Asiel,,IN ATTESA,Adulti,,
+luigirana,luigi,rana,,,,,,FALSO,,,dopofesta,,Asiel,,IN ATTESA,Adulti,,
+angelazonno,angela,zonno,,,,,,FALSO,,,dopofesta,,Asiel,,IN ATTESA,Adulti,,
++1anna,,+1 Anna,,,,,,FALSO,,,dopofesta,,Compagni ARCI,,IN ATTESA,Adulti,,
++1barba,,+1 BARBA,,,,,,FALSO,,,dopofesta,,Compagni ARCI,,IN ATTESA,Adulti,,
++1matteo,,+1 Matteo,,,,,,FALSO,,,dopofesta,,Compagni ARCI,,IN ATTESA,Adulti,,
+annaanaclerio,Anna,Anaclerio,,,,,,FALSO,,,dopofesta,,Compagni ARCI,,IN ATTESA,Adulti,,
+matteoanaclerio,Matteo,Anaclerio,,,,,,FALSO,,,dopofesta,,Compagni ARCI,,IN ATTESA,Adulti,,
+davidebarba,Davide,Barba,,,,,,FALSO,,,dopofesta,,Compagni ARCI,,IN ATTESA,Adulti,,
+ivanandrieri,Ivan,Andrieri,,,,,3669717438,VERO,,,sala,oasi,Coro GVA,,IN ATTESA,,Coro,
+federicoballanti,federico,ballanti,,,,,,VERO,,,sala,oasi,Coro GVA,,,,,
+beatricebinello,Beatrice,Binello,,,,,3285929619,VERO,,,sala,oasi,Coro GVA,,IN ATTESA,Adulti,Coro,
+antoniobiondi,Antonio,Biondi,,,,,3341057432,VERO,,,sala,oasi,Coro GVA,,IN ATTESA,,Coro,
+matteocaradossi,Matteo,Caradossi,,,,,3407312282,VERO,,,sala,oasi,Coro GVA,,IN ATTESA,,Coro,
+matteochiaraluce,Matteo,Chiaraluce,,,,,3313901500,VERO,,,sala,oasi,Coro GVA,,IN ATTESA,Adulti,Coro,
+cristianacotellessa,Cristiana,Cotellessa,,,,,3773012891,VERO,,,sala,oasi,Coro GVA,,IN ATTESA,,Coro,
+enricadesanctis,Enrica,De Sanctis,,,,,3490700252,FALSO,,,sala,,Coro GVA,,IN ATTESA,Adulti,Coro,Donna
+gabrielefara,gabriele,fara,,,,,,VERO,,,sala,oasi,Coro GVA,,,,,
+benedettaflagiello,Benedetta,Flagiello,SI,,,,3662820263,VERO,,,sala,oasi,Coro GVA,,IN ATTESA,Bambini,Coro,
+ferdinandoflagiello,Ferdinando,Flagiello,,,,,,VERO,,,sala,oasi,Coro GVA,,IN ATTESA,Adulti,Coro,Uomo
+vincenzogattulli,Vincenzo,Gattulli,,,,,3932140455,FALSO,,,sala,,Coro GVA,,IN ATTESA,Adulti,Coro,
+lorenzomarinelli,Lorenzo,Marinelli,,,,,3490078931,FALSO,,,sala,,Coro GVA,,IN ATTESA,Adulti,Coro,
+angelamosconi,Angela,Mosconi,,,,,3492898523,VERO,,,sala,oasi,Coro GVA,,IN ATTESA,Adulti,Coro,
+federicapalma,Federica,Palma,,,,,3886545561,VERO,,,sala,oasi,Coro GVA,,IN ATTESA,Adulti,Coro,
+martapilo,Marta,Pilo,,,,,3497818235,VERO,,,sala,oasi,Coro GVA,,IN ATTESA,Adulti,Coro,
+angelasalerno,Angela,Salerno,,,,,3662820263,VERO,,,sala,oasi,Coro GVA,,IN ATTESA,Adulti,Coro,
+mariosanna,Mario,Sanna,,,,,3489343036,VERO,,,sala,oasi,Coro GVA,,IN ATTESA,Adulti,Coro,
+sabrinasanna,Sabrina,Sanna,,,,,3473486744,VERO,,,sala,oasi,Coro GVA,,IN ATTESA,Adulti,Coro,
+pietroscarpa,Pietro,Scarpa,,,,,3804395107,VERO,,,sala,oasi,Coro GVA,,IN ATTESA,Adulti,Coro,
+salvatorespanedda,salvatore,spanedda,,,,,,VERO,,,sala,oasi,Coro GVA,,,,,
+mariagraziaturturo,Mariagrazia,Turturo,,,,,3466430548,FALSO,,,sala,,Coro GVA,,IN ATTESA,Adulti,Coro,
+vincenzoverdura,Vincenzo,Verdura,,,,,3382902693,FALSO,,,sala,,Coro GVA,,IN ATTESA,Adulti,Coro,
+mattiavollaro,Mattia,Vollaro,,,,,3335015503,VERO,,,sala,oasi,Coro GVA,,IN ATTESA,Adulti,Coro,
+mariagiusyfalanga,Mariagiusy,falanga,,,,,,FALSO,,,sala,,dib,,,,,
+francescafiorillo,francesca,fiorillo,,,,,,FALSO,,,sala,,dib,,,,,
+vincenzobrescia,Vincenzo,brescia,,,,,,FALSO,,,dopofesta,,Dopocresima,,,,,
+concettacastagnaro,Concetta,Castagnaro,,,,,,FALSO,,,sala,barletta,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
+monicacompagnadiziociro,Monica,compagna di zio ciro,,,,,,VERO,,,sala,triggiano,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
+nicolettacorazzati,Nicoletta,Corazzati,,,,,,FALSO,,,sala,nonni,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
+luciadarmento,Lucia,Darmento,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
+domenicodeperte,Domenico,Deperte,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Uomo
+giovannideperte,Giovanni,Deperte,,2009,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Uomo
+giovannideperte,Giovanni ,Deperte,,1940,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Uomo
+graziadeperte,Grazia,Deperte,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
+robertadeperte,Roberta,Deperte,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
+rosannadeperte,Rosanna,Deperte,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
+vitodeperte,Vito,Deperte,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Uomo
+allegradinapoli,allegra,dinapoli,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
+andreadinapoli,Andrea,Dinapoli,,,,,,VERO,,,sala,oasi,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Uomo
+antoniodinapoli,Antonio,Dinapoli,,,,,,FALSO,,,sala,nonni,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Uomo
+cesaredinapoli,cesare,dinapoli,,1970,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
+cesaredinapoli,Cesare,Dinapoli,,1973,,,,VERO,,,sala,triggiano,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Uomo
+danielledinapoli,danielle,dinapoli,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
+dariadinapoli,daria,dinapoli,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
+elenadinapoli,Elena ,Dinapoli,,,,,,FALSO,,,sala,barletta,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
+eugeniodinapoli,eugenio,dinapoli,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
+federicodinapoli,federico,dinapoli,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
+francescodinapoli,francesco,dinapoli,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
+gaiadinapoli,gaia,dinapoli,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
+giuseppedinapoli,Giuseppe,Dinapoli,,,,,,VERO,,,sala,oasi,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Uomo
+marcodinapoli,Marco,Dinapoli,,1973,,,,FALSO,,,sala,barletta,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Uomo
+marcodinapoli,marco,dinapoli,,2002,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
+marcodinapoli,marco,dinapoli,,2013,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
+marcodinapoli,marco,dinapoli,,2005,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
+marcodinapoli,Marco,Dinapoli,,1947,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Uomo
+matteodinapoli,Matteo,Dinapoli,,,,,,VERO,,,sala,triggiano,Famiglia Francesca Deperte,,IN ATTESA,Bambini,,Uomo
+robertodinapoli,Roberto,Dinapoli,,2011,,,,VERO,,,sala,triggiano,Famiglia Francesca Deperte,,IN ATTESA,Bambini,,Uomo
+robertodinapoli,roberto,dinapoli,,1971,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
+robertodinapoli,Roberto ,Dinapoli,,1944,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Uomo
+robertofelicedinapoli,Roberto Felice,Dinapoli,,,,,,FALSO,,,sala,nonni,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Uomo
+rosannadinapoli,Rosanna,Dinapoli,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
+valentinadinapoli,valentina,dinapoli,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
+lisafiglimonica,lisa,figli monica,,,,,,VERO,,,sala,triggiano,Famiglia Francesca Deperte,,IN ATTESA,Bambini,,Uomo
+lucafiglimonica,luca,figli monica,,,,,,VERO,,,sala,triggiano,Famiglia Francesca Deperte,,IN ATTESA,Bambini,,Donna
+davidegemma,Davide,Gemma,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Uomo
+gianvitogemma,Gianvito,Gemma,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Uomo
+giorgiagemma,Giorgia,Gemma,,,,,3348351285,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
+costanzalugaresi,Costanza,Lugaresi,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
+stefaniamoglieroberto,stefania,moglie roberto,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
+gaetanomongelli,Gaetano,Mongelli,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Uomo
+gianlucamongelli,Gianluca,Mongelli,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Bambini,,Uomo
+michelemongelli,Michele,Mongelli,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Bambini,,Uomo
+linamonteleone,Lina,Monteleone,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
+carlottamorelli,Carlotta,Morelli,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
+renatarenò,Renata,Renò,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
+fabianasantoro,fabiana,santoro,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
+alessiastrada,alessia,strada,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
+cinziatolomelli,Cinzia,Tolomelli,,,,,,VERO,,,sala,oasi,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
+lorellavalletta,lorella,valletta,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
+nonnalella,Nonna Lella,,,,,,,VERO,,,sala,oasi,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
+ziacarmela,Zia,Carmela,,,,,,FALSO,,,chiesa,,Famiglia Francesco Sanzone,,IN ATTESA,Adulti,,Donna
+carlacuginapapà,Carla,Cugina papà,,,,,,FALSO,,,chiesa,,Famiglia Francesco Sanzone,,IN ATTESA,Ospiti (dolci),Buffet di dolci,Donna
+adeled'amico,Adele,D'amico,,,,,3478611365,FALSO,,,sala,,Famiglia Francesco Sanzone,,IN ATTESA,No lattosio,Giovani famiglia frasanz (12!!!),Donna
+giovannalubes,Giovanna,Lubes,,,,,3285383243,FALSO,,,sala,,Famiglia Francesco Sanzone,,IN ATTESA,Adulti,Amici famiglia frasanz (DIVIDERE),Donna
+teresalubes,Teresa,Lubes,,,,,,FALSO,,,sala,,Famiglia Francesco Sanzone,,IN ATTESA,Adulti,Amici famiglia frasanz (DIVIDERE),Donna
+aldomaritocarlacugina,Aldo,Marito Carla cugina,,,,,,FALSO,,,chiesa,,Famiglia Francesco Sanzone,,IN ATTESA,Ospiti (dolci),Buffet di dolci,Uomo
+lucianapietrocola,Luciana,Pietrocola,,,,,3406015690,FALSO,,,sala,,Famiglia Francesco Sanzone,,IN ATTESA,Adulti,Amici famiglia frasanz (DIVIDERE),Donna
+rosaruccia,Rosa,Ruccia,,,,,,FALSO,,,sala,,Famiglia Francesco Sanzone,,IN ATTESA,Adulti,Amici famiglia frasanz (DIVIDERE),Donna
+antoniosanzone,Antonio,Sanzone,,,,,,FALSO,,,sala,,Famiglia Francesco Sanzone,,IN ATTESA,Adulti,Giovani famiglia frasanz (12!!!),Uomo
+estersanzone,Ester,Sanzone,,,,,,FALSO,,,sala,,Famiglia Francesco Sanzone,,IN ATTESA,Aria(no glutine no lattosio no nickel),Giovani famiglia frasanz (12!!!),Donna
+gianlorenzosanzone,Gianlorenzo,Sanzone,,,,,,FALSO,,,sala,,Famiglia Francesco Sanzone,,IN ATTESA,Gluten free,Amici famiglia frasanz (DIVIDERE),Uomo
+giuseppesanzone,Giuseppe,Sanzone,,,,,3489398239,FALSO,,,sala,,Famiglia Francesco Sanzone,,IN ATTESA,Adulti,Amici famiglia frasanz (DIVIDERE),Uomo
+maksimsanzone,Maksim,Sanzone,,,,,3489398239,FALSO,,,sala,,Famiglia Francesco Sanzone,,IN ATTESA,Adulti,Amici famiglia frasanz (DIVIDERE),Uomo
+pasqualesanzone,Pasquale,Sanzone,,,,,3496643147,FALSO,,,sala,,Famiglia Francesco Sanzone,,IN ATTESA,Gluten free,Amici famiglia frasanz (DIVIDERE),Uomo
+jacoposchena,Jacopo,Schena,,,,,,FALSO,,,sala,,Famiglia Francesco Sanzone,,IN ATTESA,Bambini,Amici famiglia frasanz (DIVIDERE),Uomo
+nicolòschena,Nicolò,Schena,,,,,,FALSO,,,sala,,Famiglia Francesco Sanzone,,IN ATTESA,Bambini,Amici famiglia frasanz (DIVIDERE),Uomo
+robertoschena,Roberto,Schena,,,,,,FALSO,,,sala,,Famiglia Francesco Sanzone,,IN ATTESA,Adulti,Amici famiglia frasanz (DIVIDERE),Uomo
+pierotribuzio,Piero,Tribuzio,,,,,,FALSO,,,sala,,Famiglia Francesco Sanzone,,IN ATTESA,Adulti,Giovani famiglia frasanz (12!!!),Uomo
+valentinatritto,Valentina,Tritto,,,,,3295447177,FALSO,,,sala,,Famiglia Francesco Sanzone,,IN ATTESA,Adulti,Amici famiglia frasanz (DIVIDERE),Donna
+vincenzotritto,Vincenzo,Tritto,,,,,3346562768,FALSO,,,sala,,Famiglia Francesco Sanzone,,IN ATTESA,Adulti,Amici famiglia frasanz (DIVIDERE),Uomo
+donatotroiano,Donato,Troiano,,,,,,FALSO,,,sala,,Famiglia Francesco Sanzone,,IN ATTESA,Adulti,Amici famiglia frasanz (DIVIDERE),Uomo
+micheletroiano,Michele,Troiano,,,,,,FALSO,,,sala,,Famiglia Francesco Sanzone,,IN ATTESA,Adulti,Amici famiglia frasanz (DIVIDERE),Uomo
+rosalbatroiano,Rosalba,Troiano,,,,,,FALSO,,,sala,,Famiglia Francesco Sanzone,,IN ATTESA,Adulti,Amici famiglia frasanz (DIVIDERE),Donna
+pabloborrelli,Pablo,Borrelli,,,,,3914623105,VERO,,,sala,oasi,Lavoro Francesca Deperte,,IN ATTESA,Adulti,,
+mirellacetronio,Mirella,Cetronio,,,,,,VERO,,,sala,oasi,Lavoro Francesca Deperte,,IN ATTESA,Adulti,,Donna
+salvatorecirone,salvatore,Cirone,,,,,,VERO,,,sala,oasi,Lavoro Francesca Deperte,,IN ATTESA,Adulti,,Uomo
+damianofisicaro,Damiano,Fisicaro,,,,,,VERO,,,sala,oasi,Lavoro Francesca Deperte,,,,,
+normagaetani,Norma,gaetani,,,,,,VERO,,,sala,oasi,Lavoro Francesca Deperte,,IN ATTESA,Adulti,,Donna
+federicaseforagiuffrida,Federica Sefora,Giuffrida,,,,,,VERO,,,sala,oasi,Lavoro Francesca Deperte,,,,,
+flaviomaggi,Flavio,Maggi,,,,,,FALSO,,,sala,,Lavoro Francesca Deperte,,IN ATTESA,Adulti,,Uomo
+angelicamanci,Angelica,Manci,,,,,,FALSO,,,sala,,Lavoro Francesca Deperte,,IN ATTESA,Adulti,,Donna
+erminiococcioli,Erminio,Coccioli,,,,,,FALSO,,,dopofesta,,Lavoro Francesco Sanzone,,IN ATTESA,Ospiti (dolci),Buffet di dolci,
+pasqualecolucci,Pasquale,Colucci,,,,,,FALSO,,,dopofesta,,Lavoro Francesco Sanzone,,IN ATTESA,Ospiti (dolci),Buffet di dolci,Uomo
+gianfrancomicoli,Gianfranco,Micoli,,,,,,FALSO,,,sala,,Lavoro Francesco Sanzone,,IN ATTESA,Adulti,Amici frasanz,Uomo
+marcopizzarelli,Marco,Pizzarelli,,,,,3275438585,FALSO,,,dopofesta,,Lavoro Francesco Sanzone,,IN ATTESA,Ospiti (dolci),Buffet di dolci,
+andrésreyes,Andrés,Reyes,,,,,,VERO,,,sala,oasi,Lavoro Francesco Sanzone,,IN ATTESA,Adulti,Amici frasanz,Uomo
+agnesericciarelli,Agnese,Ricciarelli,,,,,,VERO,,,sala,oasi,Lavoro Francesco Sanzone,,IN ATTESA,Adulti,Amici frasanz,Donna
+arcangelotanzi,Arcangelo,Tanzi,,,,,3463568481,FALSO,,,dopofesta,,Lavoro Francesco Sanzone,,IN ATTESA,Ospiti (dolci),Buffet di dolci,Uomo
+francescadeperte,Francesca,Deperte,,,fradeps,francescadeperte@gmail.com,3923923453,FALSO,,,sala,,Sposi,OK,CONFERMATO,Adulti,Presidenziale,Donna
+francescosanzone,Francesco,Sanzone,,,frasanz,sanzone95@gmail.com,3426734350,FALSO,,,sala,,Sposi,OK,CONFERMATO,No lattosio,Presidenziale,Uomo
+domenicopatrunomaritoviviana,Domenico Patruno,Marito Viviana,,,,,,FALSO,,,chiesa,,,,IN ATTESA,Ospiti (dolci),Buffet di dolci,Uomo
+vivianaventura(cugina),Viviana,Ventura (cugina),,,,,,FALSO,,,chiesa,,,,IN ATTESA,Ospiti (dolci),Buffet di dolci,Donna
