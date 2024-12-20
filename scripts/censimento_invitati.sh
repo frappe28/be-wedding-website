@@ -2,7 +2,7 @@
 
 # Configurazione variabili
 TABLE_NAME="prod-francis-wedding-invitati"  # Sostituisci con il nome della tua tabella DynamoDB
-CSV_FILE="test.csv"  # Percorso al tuo file CSV
+CSV_FILE="invitati_prod.csv"  # Percorso al tuo file CSV
 
 # Funzione per generare l'ID
 generate_id() {

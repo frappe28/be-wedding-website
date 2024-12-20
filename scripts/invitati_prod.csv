@@ -2,7 +2,7 @@ ID,NOME,COGNOME,Neonato,Anno di nascita,USERNAME,EMAIL,TELEFONO,forestiero,INTOL
 luigi+1'gina,Luigi ,+1' gina,,,,,,FALSO,,,dopofesta,,Amici di famiglia Francesca,,,,,
 ginaabbrescia,Gina,abbrescia,,,,,,FALSO,,,dopofesta,,Amici di famiglia Francesca,,,,,
 mattiabassi,Mattia,Bassi,,,,,,FALSO,,,sala,,Amici di famiglia Francesca,,IN ATTESA,Adulti,,Uomo
-mogliesavinocarbotta,moglie savino,carbotta,,,,,,FALSO,,,sala,,Amici di famiglia Francesca,,,,,
+annascaringella,anna,scaringella,,,,,,FALSO,,,sala,,Amici di famiglia Francesca,,,,,
 savinocarbotta,savino,carbotta,,,,,,FALSO,,,sala,,Amici di famiglia Francesca,,,,,
 emanueledeastis,Emanuele,De Astis,,,,,,FALSO,,,sala,,Amici di famiglia Francesca,,IN ATTESA,Adulti,,Uomo
 giuliadigina,giulia,di gina,,,,,,FALSO,,,dopofesta,,Amici di famiglia Francesca,,,,,
@@ -142,7 +142,7 @@ mariagiusyfalanga,Mariagiusy,falanga,,,,,,FALSO,,,sala,,dib,,,,,
 francescafiorillo,francesca,fiorillo,,,,,,FALSO,,,sala,,dib,,,,,
 vincenzobrescia,Vincenzo,brescia,,,,,,FALSO,,,dopofesta,,Dopocresima,,,,,
 concettacastagnaro,Concetta,Castagnaro,,,,,,FALSO,,,sala,barletta,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
-monicacompagnadiziociro,Monica,compagna di zio ciro,,,,,,VERO,,,sala,triggiano,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
+monicagalli,Monica,Galli,,,,,,VERO,,,sala,triggiano,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
 nicolettacorazzati,Nicoletta,Corazzati,,,,,,FALSO,,,sala,nonni,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
 luciadarmento,Lucia,Darmento,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
 domenicodeperte,Domenico,Deperte,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Uomo
@@ -177,19 +177,19 @@ robertodinapoli,Roberto ,Dinapoli,,1944,,,,FALSO,,,sala,,Famiglia Francesca Depe
 robertofelicedinapoli,Roberto Felice,Dinapoli,,,,,,FALSO,,,sala,nonni,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Uomo
 rosannadinapoli,Rosanna,Dinapoli,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
 valentinadinapoli,valentina,dinapoli,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
-lisafiglimonica,lisa,figli monica,,,,,,VERO,,,sala,triggiano,Famiglia Francesca Deperte,,IN ATTESA,Bambini,,Uomo
-lucafiglimonica,luca,figli monica,,,,,,VERO,,,sala,triggiano,Famiglia Francesca Deperte,,IN ATTESA,Bambini,,Donna
+lisasighinolfi,lisa,sighinolfi,,,,,,VERO,,,sala,triggiano,Famiglia Francesca Deperte,,IN ATTESA,Bambini,,Uomo
+lucasighinolfi,luca,sighinolfi,,,,,,VERO,,,sala,triggiano,Famiglia Francesca Deperte,,IN ATTESA,Bambini,,Donna
 davidegemma,Davide,Gemma,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Uomo
 gianvitogemma,Gianvito,Gemma,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Uomo
 giorgiagemma,Giorgia,Gemma,,,,,3348351285,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
 costanzalugaresi,Costanza,Lugaresi,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
-stefaniamoglieroberto,stefania,moglie roberto,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
+stefaniamincuzzi,stefania,mincuzzi,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
 gaetanomongelli,Gaetano,Mongelli,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Uomo
 gianlucamongelli,Gianluca,Mongelli,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Bambini,,Uomo
 michelemongelli,Michele,Mongelli,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Bambini,,Uomo
 linamonteleone,Lina,Monteleone,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
 carlottamorelli,Carlotta,Morelli,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
-renatarenò,Renata,Renò,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
+renatagrosso,Renata,Grosso,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna
 fabianasantoro,fabiana,santoro,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
 alessiastrada,alessia,strada,,,,,,FALSO,,,sala,,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,
 cinziatolomelli,Cinzia,Tolomelli,,,,,,VERO,,,sala,oasi,Famiglia Francesca Deperte,,IN ATTESA,Adulti,,Donna

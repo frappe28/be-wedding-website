@@ -10,7 +10,7 @@ export const update_invitato = async (invitato) => {
     try {
         const params = {
             TableName: DYNAMODB_INVITATI_TABLE_NAME,
-            Key: { id: invitato.id },
+            Key: { id: invitato.id.toLowerCase() },
             UpdateExpression: "set conferma = :conferma, email = :email, intolleranze = :intolleranze, intolleranze_list = :intolleranze_list, telefono = :telefono, username = :username",
             ExpressionAttributeValues: {
                 ":conferma": invitato.conferma,
