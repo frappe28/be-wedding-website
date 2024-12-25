@@ -18,7 +18,7 @@ export const update_invitato = async (invitato) => {
                 ":intolleranze": invitato.intolleranze,
                 ":intolleranze_list": invitato.intolleranze_list,
                 ":telefono": invitato.telefono,
-                ":username": invitato.username
+                ":username": invitato.username ?? ''
             },
             ReturnValues: "ALL_NEW"
         };
