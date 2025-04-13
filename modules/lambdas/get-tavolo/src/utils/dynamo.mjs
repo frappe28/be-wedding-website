@@ -6,7 +6,7 @@ const dynamodbClient = new DynamoDB.DocumentClient({
     region: REGION
 });
 
-export const check_invitato = async (id) => {
+export const get_tavolo = async (id) => {
     try {
         const params = {
             TableName: DYNAMODB_INVITATI_TABLE_NAME,
@@ -20,26 +20,9 @@ export const check_invitato = async (id) => {
         const itemResult = queryResult.Item;
 
         return {
-            itemResult
+            tavolo_numero: itemResult.tavolo_numero,
+            tavolo_titolo: itemResult.tavolo_titolo
         };
-
-    } catch (error) {
-        throw new Error(error.message);
-    }
-};
-
-export const scanInvitati = async () => {
-    try {
-        const params = {
-            TableName: DYNAMODB_INVITATI_TABLE_NAME,
-        };
-        console.log('Get item params', { ...params });
-        const queryResult = await dynamodbClient.scan(params).promise();
-        console.log('Get item result', { ...queryResult });
-        const itemResult = queryResult.Items;
-
-        return itemResult;
-
     } catch (error) {
         throw new Error(error.message);
     }

@@ -1,8 +1,8 @@
 {
-  "name": "controllo-invitato",
+  "name": "get-tavolo",
   "author": "Wedding-Francis",
   "version": "1.0.0",
-  "description": "Lambda per controllare se una persona e' invitata",
+  "description": "Lambda per controllare il tavolo di una persona",
   "main": "index.js",
   "type": "module",
   "scripts": {
